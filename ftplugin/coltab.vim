@@ -46,13 +46,13 @@
 "	:execute "normal o" group
 
 
-	:if choice == 'd2h' 
+	:if choice ==? 'd2h' 
 		:call WriteEightCol(choice)
-	:elseif choice == 'c2v' || choice == 'c2h' || choice == 'd2' 
+	:elseif choice ==? 'c2v' || choice ==? 'c2h' || choice ==? 'd2' 
 		:call WriteFourCol(choice)
-	:elseif choice == 'ci' || choice == 'cs' || choice == 'c2' 
+	:elseif choice ==? 'ci' || choice ==? 'cs' || choice ==? 'c2' 
 		:call WriteTwoCol(choice)
-	:elseif choice == 'c1' 
+	:elseif choice ==? 'c1' 
 		:call WriteOneCol(choice)
 	:endif
 
