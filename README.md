@@ -8,3 +8,5 @@ Open a file with the .coltab extension use the plugin as
 or, if you wish just write the point group directly as:
 
 :call ColTab('d2h')
+
+Please, consider to install dhruvasagar/vim-table-mode plugin to realign the Tables.
