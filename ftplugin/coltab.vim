@@ -1,3 +1,15 @@
+" Plugin written by Rene F. K. Spada from Instituto Tecnológico de Aeronáutica
+"
+" This plugin writes the Columbus Occupation Table to a text file. Just:
+"
+":call ColTab()
+"
+"to choose the point group or you can include it to the call as:
+"
+":call ColTab('d2h')
+" If you install the table plugin, the tables you reformat automatically.
+
+
 function ColTab(group)
 
 	try 
