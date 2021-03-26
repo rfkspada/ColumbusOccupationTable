@@ -11,7 +11,7 @@ or, if you wish just write the point group directly as:
 
 Please, consider to install dhruvasagar/vim-table-mode plugin to realign the Tables.
 
-To install this plugin, it is better to do it via a plugin mangaer. If you use Vundle for e.g., include in your .vimrc:
+To install this plugin, it is better to do it via a plugin manager. If you use Vundle for e.g., include in your .vimrc:
 
 Plugin 'rfkspada/ColumbusOccupationTable'
 Plugin 'dhruvasagar/vim-table-mode'
