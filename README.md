@@ -14,6 +14,7 @@ Please, consider to install dhruvasagar/vim-table-mode plugin to realign the Tab
 To install this plugin, it is better to do it via a plugin manager. If you use Vundle for e.g., include in your .vimrc:
 
 Plugin 'rfkspada/ColumbusOccupationTable'
+
 Plugin 'dhruvasagar/vim-table-mode'
 
 Start vim and on Command Mode execute :PluginInstall
