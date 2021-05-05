@@ -9,6 +9,12 @@
 ":call ColTab('d2h')
 " If you install the table plugin, the tables you reformat automatically.
 
+try
+   TableModeEnable
+catch
+   echo "TableMode Plugin not installed."
+   echo "Install it to realign the tables."
+endtry
 
 function ColTab(group)
 
