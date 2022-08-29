@@ -135,8 +135,9 @@ function WriteFourCol(group)
 	endif
 
 	if a:group == 'c2h'
-		normal o |       |       | ag | bu | au | ag |
+		normal o |       |       | ag | bu | au | bg |
 	endif
+	
 	if a:group == 'd2' 
 		normal o |       |       | a  | b2 | b1 | b3 |
 	endif
